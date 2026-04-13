@@ -1,0 +1,13 @@
+split:
+  strategy: "group"
+  name: "default_split"
+  seed: null
+  train_ratio: 0.70
+  val_ratio: 0.15
+  test_ratio: 0.15
+  save_assignments: true
+  constraints:
+    forced_assignments:
+      "[Huo]Lake Hnagzhang": "test"
+      "[Huo]Lake Ulansu": "train"
+      "[Li]Lake Xiaoxingkai": "val"

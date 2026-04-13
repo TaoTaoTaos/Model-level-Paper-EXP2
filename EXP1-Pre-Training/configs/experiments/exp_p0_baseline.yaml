@@ -1,0 +1,12 @@
+experiment:
+  name: "exp_p0_baseline"
+  description: "NeuralCDE baseline with Hermite interpolation and MSE loss."
+
+coeffs:
+  interpolation: "hermite"
+
+train:
+  loss: "mse"
+
+features:
+  target_transform: "none"

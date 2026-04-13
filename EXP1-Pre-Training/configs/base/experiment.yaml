@@ -1,0 +1,11 @@
+experiment:
+  name: "exp_p0_baseline"
+  description: "Baseline NeuralCDE pretraining on multi-lake irregular windows."
+  save_figures: true
+  save_pdf_report: true
+
+debug:
+  enabled: false
+  max_lakes: null
+  max_windows_per_split: null
+  max_epochs: null

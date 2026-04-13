@@ -1,0 +1,3 @@
+experiment:
+  name: "exp_p1_interpolation_compare"
+  description: "Interpolation comparison experiment. Override coeffs.interpolation at runtime."

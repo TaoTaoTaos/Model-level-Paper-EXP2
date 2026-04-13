@@ -1,0 +1,7 @@
+experiment:
+  name: "exp_p5_lolo"
+  description: "Leave-one-lake-out cross-validation."
+
+split:
+  strategy: "lolo"
+  name: "lolo"

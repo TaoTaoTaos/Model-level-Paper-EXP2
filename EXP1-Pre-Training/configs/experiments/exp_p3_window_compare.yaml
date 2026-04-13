@@ -1,0 +1,3 @@
+experiment:
+  name: "exp_p3_window_compare"
+  description: "Window length comparison experiment. Override window.window_days at runtime."

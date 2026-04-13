@@ -1,0 +1,16 @@
+experiment:
+  name: "exp_p0_formal_stable"
+  description: "Stable formal baseline with lower memory pressure for first complete runs."
+
+coeffs:
+  interpolation: "hermite"
+
+train:
+  batch_size: 512
+  loss: "mse"
+
+model:
+  method: "midpoint"
+
+features:
+  target_transform: "none"

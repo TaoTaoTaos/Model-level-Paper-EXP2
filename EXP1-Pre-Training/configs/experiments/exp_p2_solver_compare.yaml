@@ -1,0 +1,3 @@
+experiment:
+  name: "exp_p2_solver_compare"
+  description: "Solver comparison experiment. Override model.method at runtime."
